@@ -1,0 +1,16 @@
+LiquidRemix
+==============
+
+Getting Started
+----------------
+
+To get started with Android/LiquidRemix, you'll need to get
+familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
+
+To initialize your local repository using the LiquidRemix trees, use a command like this:
+
+    repo init -u git://github.com/LiquidRemix/android_manifest.git -b oc
+
+Then to sync up:
+
+    repo sync
