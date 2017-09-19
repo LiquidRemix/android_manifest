@@ -455,6 +455,7 @@
   <project path="bionic" name="android_bionic" groups="pdk" remote="liquid" />
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="liquid" />
   <project path="device/liquid/sepolicy" name="android_device_liquid_sepolicy" remote="liquid" />
+  <project path="external/libnetfilter_conntrack" name="android_external_libnetfilter_conntrack" remote="liquid" />
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="liquid" />
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="liquid" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="liquid" />
@@ -481,7 +482,6 @@
   <project path="external/fuse" name="android_external_fuse" remote="lineage" />
   <project path="external/json-c" name="android_external_json-c" remote="lineage" />
   <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />
-  <project path="external/libnetfilter_conntrack" name="android_external_libnetfilter_conntrack" remote="lineage" />
   <project path="external/libnfnetlink" name="android_external_libnfnetlink" remote="lineage" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="lineage" />
   <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="lineage" />
