@@ -475,6 +475,7 @@
   <project path="build/kati" name="android_build_kati" groups="pdk,tradefed" remote="lineage" />
   <project path="art" name="android_art" groups="pdk" remote="lineage" />
   <project path="development" name="android_development" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="lineage" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="lineage" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="lineage" />
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="lineage" />
