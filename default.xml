@@ -32,6 +32,7 @@
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project path="developers/build" name="platform/developers/build" />
+  <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/abi-compliance-checker" name="platform/external/abi-compliance-checker" groups="pdk" />
   <project path="external/abi-dumper" name="platform/external/abi-dumper" groups="pdk" />
@@ -475,7 +476,6 @@
   <!-- START LINEAGE -->
   <project path="build/kati" name="android_build_kati" groups="pdk,tradefed" remote="lineage" />
   <project path="art" name="android_art" groups="pdk" remote="lineage" />
-  <project path="development" name="android_development" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="lineage" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="lineage" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="lineage" />
