@@ -17,7 +17,7 @@
            fetch="https://github.com/LineageOS"
            revision="lineage-15.0" />
 
-  <default revision="refs/tags/android-8.0.0_r9"
+  <default revision="refs/tags/android-8.0.0_r17"
            remote="aosp"
            sync-c="true"
            sync-f="true"
