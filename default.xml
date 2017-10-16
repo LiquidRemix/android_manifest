@@ -460,7 +460,7 @@
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="liquid" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="liquid" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="liquid" />
-  <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="liquid" >
+  <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="liquid" />
   <project path="hardware/qcom/audio-caf/msm8998" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="liquid" />
   <project path="hardware/qcom/display-caf/msm8998" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="liquid" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom,qcom_gps,pdk" remote="liquid" />
