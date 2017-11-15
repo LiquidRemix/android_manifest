@@ -457,7 +457,7 @@
   <project path="external/skia" name="android_external_skia" groups="pdk,qcom_msm8x26" remote="liquid" />
   <project path="external/sqlite" name="android_external_sqlite" groups="pdk" remote="liquid" />
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="liquid" />
-  <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="liquid" />
+  <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="tudouos" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="liquid" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="liquid" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="liquid" />
@@ -484,8 +484,8 @@
   <project path="system/bt" name="android_system_bt" groups="pdk" remote="liquid" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="liquid" />
   <project path="vendor/liquid" name="android_vendor_liquid" remote="tudouos" />
-  <project path="packages/providers/PhoneLocationProvider" name="sdhz150/android_packages_provider_PhoneLocationProvider-1" remote="github" revision="XOS-8.0" />
-  <project path="external/suda/SudaSDKs" name="sdhz150/android_external_suda_SudaSDKs" remote="github" revision="XOS-8.0" />
+  <project path="packages/providers/PhoneLocationProvider" name="tudouos/android_packages_provider_PhoneLocationProvider-1" remote="github" revision="XOS-8.0" />
+  <project path="external/suda/SudaSDKs" name="tudouos/android_external_suda_SudaSDKs" remote="github" revision="XOS-8.0" />
   <!-- FINISH LIQUID -->
 
   <!-- START LINEAGE -->
