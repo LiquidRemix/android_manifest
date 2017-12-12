@@ -177,6 +177,7 @@
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk" />
+  <project path="external/libpng" name="platform/external/libpng" groups="pdk" />
   <project path="external/libtextclassifier" name="platform/external/libtextclassifier" groups="pdk" />
   <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" />
   <project path="external/libunwind_llvm" name="platform/external/libunwind_llvm" groups="pdk" />
@@ -468,7 +469,6 @@
   <project path="art" name="android_art" groups="pdk" remote="liquid" />
   <project path="bionic" name="android_bionic" groups="pdk" remote="liquid" />
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="liquid" />
-  <project path="external/libpng" name="android_external_libpng" groups="pdk" remote="liquid" />
   <project path="external/skia" name="android_external_skia" groups="pdk,qcom_msm8x26" remote="liquid" />
   <project path="external/sqlite" name="android_external_sqlite" groups="pdk" remote="liquid" />
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="liquid" />
