@@ -483,6 +483,7 @@
       <copyfile dest="hardware/lineage/Android.bp" src="Android.bp" />
   </project>
   <project path="hardware/qcom/audio-caf/msm8998" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="liquid" />
+  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" groups="qcom_camera" remote="liquid" />
   <project path="hardware/qcom/display-caf/msm8998" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="liquid" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom,qcom_gps,pdk" remote="liquid" />
   <project path="hardware/qcom/media-caf/msm8998" name="android_hardware_qcom_media" groups="qcom,pdk" remote="liquid" />
@@ -534,7 +535,6 @@
   <project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="lineage" revision="staging/lineage-15.1-caf-8996" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom,pdk" remote="lineage" />
   <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" groups="qcom,pdk" remote="lineage" revision="lineage-15.0-caf" />
-  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" groups="qcom_camera" remote="lineage" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="lineage" />
   <project path="hardware/qcom/display-caf/msm8960" name="android_hardware_qcom_display" groups="qcom,qcom_display,pdk" remote="lineage" revision="staging/lineage-15.1-caf-8960" />
   <project path="hardware/qcom/display-caf/msm8974" name="android_hardware_qcom_display" groups="qcom,qcom_display,pdk" remote="lineage" revision="staging/lineage-15.1-caf-8974" />
