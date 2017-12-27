@@ -411,7 +411,6 @@
   <project path="system/connectivity/wifilogd" name="platform/system/connectivity/wifilogd" groups="pdk" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/hardware/interfaces" name="platform/system/hardware/interfaces" groups="pdk" />
-  <project path="system/hwservicemanager" name="platform/system/hwservicemanager" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/libfmq" name="platform/system/libfmq" groups="pdk" />
   <project path="system/libhidl" name="platform/system/libhidl" groups="pdk" />
@@ -502,6 +501,7 @@
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="liquid" />
   <project path="system/bt" name="android_system_bt" groups="pdk" remote="liquid" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="liquid" />
+  <project path="system/hwservicemanager" name="android_system_hwservicemanager" groups="pdk" remote="liquid" />
   <project path="vendor/liquid" name="android_vendor_liquid" remote="liquid" />
   <!-- FINISH LIQUID -->
 
