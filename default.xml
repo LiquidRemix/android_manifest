@@ -27,7 +27,6 @@
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="compatibility/cdd" name="platform/compatibility/cdd" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
-  <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project path="developers/build" name="platform/developers/build" groups="developers" />
   <project path="development" name="platform/development" groups="developers,pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
@@ -505,6 +504,7 @@
 
   <!-- START LINEAGE -->
   <project path="build/kati" name="android_build_kati" groups="pdk,tradefed" remote="lineage" />
+  <project path="dalvik" name="android_dalvik" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="lineage" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="lineage" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="lineage" />
