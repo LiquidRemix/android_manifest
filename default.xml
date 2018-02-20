@@ -26,7 +26,7 @@
   <!-- START AOSP -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="compatibility/cdd" name="platform/compatibility/cdd" groups="pdk" />
-  <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
+  <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" clone-depth="1" />
   <project path="developers/build" name="platform/developers/build" groups="developers" />
   <project path="development" name="platform/development" groups="developers,pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
@@ -43,7 +43,7 @@
   <project path="external/apache-xml" name="platform/external/apache-xml" groups="pdk" />
   <project path="external/archive-patcher" name="platform/external/archive-patcher" groups="pdk" />
   <project path="external/arm-neon-tests" name="platform/external/arm-neon-tests" groups="vendor" />
-  <project path="external/autotest" name="platform/external/autotest" groups="pdk-fs" />
+  <project path="external/autotest" name="platform/external/autotest" groups="pdk-fs" clone-depth="1" />
   <project path="external/avb" name="platform/external/avb" groups="pdk" />
   <project path="external/bart" name="platform/external/bart" groups="pdk" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
@@ -184,7 +184,7 @@
   <project path="external/libvterm" name="platform/external/libvterm" groups="pdk" />
   <project path="external/libxml2" name="platform/external/libxml2" groups="pdk,libxml2" />
   <project path="external/libyuv" name="platform/external/libyuv" groups="pdk,libyuv" />
-  <project path="external/linux-kselftest" name="platform/external/linux-kselftest" groups="vts,pdk" />
+  <project path="external/linux-kselftest" name="platform/external/linux-kselftest" groups="vts,pdk" clone-depth="1" />
   <project path="external/lisa" name="platform/external/lisa" groups="pdk" />
   <project path="external/littlemock" name="platform/external/littlemock" groups="pdk" />
   <project path="external/lld" name="platform/external/lld" groups="pdk" />
@@ -297,7 +297,7 @@
   <project path="frameworks/data-binding" name="platform/frameworks/data-binding" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ex" name="platform/frameworks/ex" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/hardware/interfaces" name="platform/frameworks/hardware/interfaces" groups="pdk" />
-  <project path="frameworks/layoutlib" name="platform/frameworks/layoutlib" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/layoutlib" name="platform/frameworks/layoutlib" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />
