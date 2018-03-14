@@ -581,5 +581,5 @@
   </project>
   <project path="vendor/qcom/opensource/rcs-service" name="android_vendor_qcom_opensource_rcs-service" remote="lineage" />
   <!-- FINISH LINEAGE -->
-
+  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="lineage" revision="lineage-15.1"/>
 </manifest>
