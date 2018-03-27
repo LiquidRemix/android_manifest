@@ -574,6 +574,7 @@
   <project path="system/qcom" name="android_system_qcom" groups="qcom" remote="lineage" />
   <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="lineage" />
   <project path="system/tools/aidl" name="android_system_tools_aidl" groups="pdk" remote="lineage" />
+  <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage" />
   <project path="system/tools/hidl" name="android_system_tools_hidl" groups="pdk" remote="lineage" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="lineage" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="lineage" />
