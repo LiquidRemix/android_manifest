@@ -230,7 +230,6 @@
   <project path="external/piex" name="platform/external/piex" groups="pdk" />
   <project path="external/ppp" name="platform/external/ppp" groups="pdk" />
   <project path="external/ply" name="platform/external/ply" groups="pdk" />
-  <project path="external/proguard" name="platform/external/proguard" groups="pdk" />
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" />
   <project path="external/python/cpython2" name="platform/external/python/cpython2" groups="pdk" />
   <project path="external/python/cpython3" name="platform/external/python/cpython3" groups="pdk" />
@@ -464,6 +463,7 @@
   <project path="dalvik" name="android_dalvik" groups="pdk-cw-fs,pdk-fs" remote="liquid" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="liquid" />
   <project path="external/DUtils" name="android_external_DUtils" remote="liquid" />
+  <project path="external/proguard" name="android_external_proguard" groups="pdk" remote="liquid" />
   <project path="external/skia" name="android_external_skia" groups="pdk,qcom_msm8x26" remote="liquid" />
   <project path="external/sqlite" name="android_external_sqlite" groups="pdk" remote="liquid" />
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="liquid" />
