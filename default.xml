@@ -159,7 +159,6 @@
   <project path="external/libexif" name="platform/external/libexif" groups="pdk" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
   <project path="external/libhevc" name="platform/external/libhevc" groups="pdk" />
-  <project path="external/libjpeg-turbo" name="platform/external/libjpeg-turbo" groups="pdk" />
   <project path="external/libldac" name="platform/external/libldac" groups="pdk" />
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libmicrohttpd" name="platform/external/libmicrohttpd" groups="pdk" />
@@ -463,6 +462,7 @@
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="liquid" />
   <project path="external/DUtils" name="android_external_DUtils" remote="liquid" />
   <project path="external/jemalloc" name="android_external_jemalloc" groups="pdk" remote="liquid" />
+  <project path="external/libjpeg-turbo" name="android_external_libjpeg-turbo" groups="pdk" remote="liquid" />
   <project path="external/libpng" name="android_external_libpng" groups="pdk" remote="liquid" />
   <project path="external/proguard" name="android_external_proguard" groups="pdk" remote="liquid" />
   <project path="external/skia" name="android_external_skia" groups="pdk,qcom_msm8x26" remote="liquid" />
