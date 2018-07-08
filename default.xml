@@ -511,7 +511,7 @@
   <project path="external/ebtables" name="android_external_ebtables" remote="lineage" />
   <project path="external/elfutils" name="android_external_elfutils" groups="pdk" remote="lineage" />
   <project path="external/exfat" name="android_external_exfat" remote="lineage" />
-    <project path="external/f2fs-tools" name="android_external_f2fs-tools" groups="pdk" remote="lineage" />
+  <project path="external/f2fs-tools" name="android_external_f2fs-tools" groups="pdk" remote="lineage" />
   <project path="external/fuse" name="android_external_fuse" remote="lineage" />
   <project path="external/json-c" name="android_external_json-c" remote="lineage" />
   <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />
@@ -534,6 +534,7 @@
   <project path="hardware/qcom/audio-caf/msm8994" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="lineage" revision="lineage-15.1-caf-8994" />
   <project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="lineage" revision="lineage-15.1-caf-8996" />
   <project path="hardware/qcom/audio-caf/msm8998" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="lineage" revision="lineage-15.1-caf-8998" />
+  <project path="hardware/qcom/audio-caf/sdm845" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="lineage" revision="lineage-15.1-caf-845" />
   <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" groups="pdk" remote="lineage" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom,pdk" remote="lineage" />
   <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" groups="qcom,pdk" remote="lineage" revision="lineage-15.1-caf" />
@@ -544,6 +545,7 @@
   <project path="hardware/qcom/display-caf/msm8994" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="lineage" revision="lineage-15.1-caf-8994" />
   <project path="hardware/qcom/display-caf/msm8996" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="lineage" revision="lineage-15.1-caf-8996" />
   <project path="hardware/qcom/display-caf/msm8998" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="lineage" revision="lineage-15.1-caf-8998" />
+  <project path="hardware/qcom/display-caf/sdm845" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="lineage" revision="lineage-15.1-caf-845" />
   <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" groups="qcom,qcom_fm" remote="lineage" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom,qcom_gps,pdk" remote="lineage" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" remote="lineage" />
@@ -553,7 +555,8 @@
   <project path="hardware/qcom/media-caf/msm8994" name="android_hardware_qcom_media" groups="qcom,pdk" remote="lineage" revision="lineage-15.1-caf-8994" />
   <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" groups="qcom,pdk" remote="lineage" revision="lineage-15.1-caf-8996" />
   <project path="hardware/qcom/media-caf/msm8998" name="android_hardware_qcom_media" groups="qcom,pdk" remote="lineage" revision="lineage-15.1-caf-8998" />
-    <project path="hardware/qcom/neuralnetworks/hvxservice" name="android_hardware_qcom_neuralnetworks_hvxservice" remote="lineage" >
+  <project path="hardware/qcom/media-caf/sdm845" name="android_hardware_qcom_media" groups="qcom,pdk" remote="lineage" revision="lineage-15.1-caf-845" />
+  <project path="hardware/qcom/neuralnetworks/hvxservice" name="android_hardware_qcom_neuralnetworks_hvxservice" remote="lineage" >
     <copyfile dest="hardware/qcom/Android.bp" src="Android.bp"/>
   </project>
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" groups="qcom,qcom_power" remote="lineage" />
