@@ -172,7 +172,6 @@
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk" />
-  <project path="external/libtextclassifier" name="platform/external/libtextclassifier" groups="pdk" />
   <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" />
   <project path="external/libunwind_llvm" name="platform/external/libunwind_llvm" groups="pdk" />
   <project path="external/libusb" name="platform/external/libusb" groups="pdk" />
@@ -516,6 +515,7 @@
   <project path="external/libdrm" name="android_external_libdrm" groups="pdk" remote="lineage" />
   <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="lineage" />
+  <project path="external/libtextclassifier" name="android_external_libtextclassifier" groups="pdk" remote="lineage" />
   <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="lineage" />
   <project path="external/powertop" name="android_external_powertop" remote="lineage" />
   <project path="external/selinux" name="android_external_selinux" groups="pdk" remote="lineage" />
