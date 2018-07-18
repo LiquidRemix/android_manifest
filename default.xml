@@ -528,7 +528,6 @@
   <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="lineage" >
     <copyfile dest="hardware/lineage/Android.bp" src="Android.bp" />
   </project>
-  <project path="hardware/lineage/telephony" name="android_hardware_lineage_telephony" remote="lineage" />
   <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="lineage" />
   <project path="hardware/qcom/audio-caf/msm8960" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="lineage" revision="lineage-15.1-caf-8960" />
   <project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="lineage" revision="lineage-15.1-caf-8974" />
