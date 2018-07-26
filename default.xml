@@ -495,6 +495,7 @@
   <project path="system/core" name="android_system_core" groups="pdk" remote="liquid" />
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="liquid" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="liquid" />
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="liquid" />
   <project path="vendor/liquid" name="android_vendor_liquid" remote="liquid" />
   <!-- FINISH LIQUID -->
 
@@ -589,7 +590,6 @@
   <project path="system/tools/aidl" name="android_system_tools_aidl" groups="pdk" remote="lineage" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage" />
   <project path="system/tools/hidl" name="android_system_tools_hidl" groups="pdk" remote="lineage" />
-  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="lineage" />
     <project path="vendor/nxp/interfaces/opensource/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="lineage" >
     <linkfile dest="vendor/nxp/interfaces/Android.bp" src="prop_pickup.bp"/>
   </project>
