@@ -499,7 +499,7 @@
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="liquid" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="liquid" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="liquid" />
-  <project path="vendor/liquid" name="android_vendor_liquid" remote="liquid" >
+  <project path="vendor/liquid" name="android_vendor_liquid" remote="liquid" revision="oc-mr2-gsi" >
    <linkfile src="GSI/buildsupport/liquid.sh" dest="liquid.sh" />
    <linkfile src="GSI/buildsupport/apply-patches.sh" dest="apply-patches.sh" />
    <linkfile src="GSI/buildsupport/list-patches.sh" dest="list-patches.sh" />
