@@ -22,7 +22,10 @@
            sync-c="true"
            sync-f="true"
            sync-j="8" />
-
+   
+  <remote name="opengapps"
+           fetch="https://github.com/opengapps/" />
+  
   <!-- START AOSP -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="compatibility/cdd" name="platform/compatibility/cdd" groups="pdk" />
@@ -496,7 +499,11 @@
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="liquid" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="liquid" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="liquid" />
-  <project path="vendor/liquid" name="android_vendor_liquid" remote="liquid" />
+  <project path="vendor/liquid" name="android_vendor_liquid" remote="liquid" >
+   <linkfile src="GSI/buildsupport/liquid.sh" dest="liquid.sh" />
+   <linkfile src="GSI/buildsupport/apply-patches.sh" dest="apply-patches.sh" />
+   <linkfile src="GSI/buildsupport/list-patches.sh" dest="list-patches.sh" />
+  </project>
   <!-- FINISH LIQUID -->
 
   <!-- START LINEAGE -->
@@ -603,5 +610,15 @@
   </project>
   <project path="vendor/qcom/opensource/rcs-service" name="android_vendor_qcom_opensource_rcs-service" remote="lineage" />
   <!-- FINISH LINEAGE -->
+  
+  <!-- OpenGApps -->
+  <project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />
+  <project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps" />
+
+  <!-- arm64 depends on arm -->
+  <project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps" />
+  <project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps" />
+  <project path="vendor/opengapps/sources/x86" name="x86" clone-depth="1" revision="master" remote="opengapps" />
+  <project path="vendor/opengapps/sources/x86_64" name="x86_64" clone-depth="1" revision="master" remote="opengapps" />
 
 </manifest>
