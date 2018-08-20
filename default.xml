@@ -346,7 +346,6 @@
   <project path="external/xmlrpcpp" name="platform/external/xmlrpcpp" groups="pdk" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk" />
   <project path="external/xz-embedded" name="platform/external/xz-embedded" groups="pdk" />
-  <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
@@ -611,6 +610,7 @@
   <project path="external/selinux" name="android_external_selinux" groups="pdk" remote="lineage" />
   <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="lineage" />
   <project path="external/toybox" name="android_external_toybox" groups="pdk" remote="lineage" />
+  <project path="external/zlib" name="android_external_zlib" groups="pdk" remote="lineage" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" remote="lineage" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="lineage" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="lineage" />
