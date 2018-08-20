@@ -347,7 +347,7 @@
   <project path="external/wycheproof" name="platform/external/wycheproof" groups="pdk" />
   <project path="external/x264" name="platform/external/x264" groups="pdk" />
   <project path="external/xmlrpcpp" name="platform/external/xmlrpcpp" groups="pdk" />
-  <projct path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk" />
+  <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk" />
   <project path="external/xz-embedded" name="platform/external/xz-embedded" groups="pdk" />
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk" />
@@ -550,8 +550,8 @@
   <project path="bionic" name="android_bionic" groups="pdk" remote="liquid" />
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="liquid" />
   <project path="dalvik" name="android_dalvik" groups="pdk-cw-fs,pdk-fs" remote="liquid" />
-<!--<project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="liquid" />
-  <project path="external/DUtils" name="android_external_DUtils" remote="liquid" />-->
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="liquid" />
+  <!--<project path="external/DUtils" name="android_external_DUtils" remote="liquid" />-->
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="liquid" />
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="liquid" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="liquid" />
