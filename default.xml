@@ -552,27 +552,27 @@
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="liquid" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="liquid" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="liquid" />
-<!--<project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="liquid" />-->
+  <!--<project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="liquid" />-->
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" groups="pdk" remote="liquid" />
   <project path="frameworks/support" name="android_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="liquid" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="liquid" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="liquid" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" groups="pdk-fs" remote="liquid" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" groups="pdk-fs" remote="liquid" />
-<!--<project path="packages/apps/DUI" name="android_packages_apps_DUI" remote="liquid" />
+  <!--<project path="packages/apps/DUI" name="android_packages_apps_DUI" remote="liquid" />
   <project path="packages/apps/LiquidOTA" name="android_packages_apps_LiquidOTA" remote="liquid" />
   <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="liquid" />
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="liquid" />-->
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="liquid" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="liquid" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" remote="liquid" />
-<!--<project path="packages/apps/SlimRecents" name="android_packages_apps_SlimRecents" groups="pdk-fs" remote="liquid" />
+  <!--<project path="packages/apps/SlimRecents" name="android_packages_apps_SlimRecents" groups="pdk-fs" remote="liquid" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" groups="pdk-fs" remote="liquid" />
   <project path="packages/apps/LiquidLounge" name="android_packages_apps_LiquidLounge" remote="liquid" />-->
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" groups="pdk-fs" remote="liquid" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="liquid" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="liquid" />
-<!--<project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="liquid" />-->
+  <!--<project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="liquid" />-->
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="liquid" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="liquid" />
   <project path="system/bt" name="android_system_bt" groups="pdk" remote="liquid" />
@@ -605,7 +605,7 @@
   <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="lineage" />
   <project path="external/one-true-awk" name="android_external_one-true-awk" groups="pdk" remote="lineage" />
   <project path="external/perfetto" name="android_external_perfetto" groups="pdk" remote="lineage" />
-<!--<project path="external/powertop" name="android_external_powertop" remote="lineage" />-->
+  <!--<project path="external/powertop" name="android_external_powertop" remote="lineage" />-->
   <project path="external/selinux" name="android_external_selinux" groups="pdk" remote="lineage" />
   <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="lineage" />
   <project path="external/toybox" name="android_external_toybox" groups="pdk" remote="lineage" />
@@ -644,49 +644,45 @@
   <project path="hardware/qcom/media-caf/msm8994" name="android_hardware_qcom_media" groups="qcom,pdk" remote="lineage" revision="lineage-16.0-caf-8994" />
   <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" groups="qcom,pdk" remote="lineage" revision="lineage-16.0-caf-8996" />
   <project path="hardware/qcom/media-caf/msm8998" name="android_hardware_qcom_media" groups="qcom,pdk" remote="lineage" revision="lineage-16.0-caf-8998" />
-<!--<project path="hardware/qcom/power" name="android_hardware_qcom_power" groups="qcom,qcom_power" remote="lineage" />
+  <!--<project path="hardware/qcom/power" name="android_hardware_qcom_power" groups="qcom,qcom_power" remote="lineage" />
   <project path="hardware/qcom/thermal" name="android_hardware_qcom_thermal" groups="qcom,qcom_thermal" remote="lineage" />
   <project path="hardware/qcom/vr" name="android_hardware_qcom_vr" groups="qcom,qcom_vr" remote="lineage" />-->
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="lineage" revision="lineage-16.0" />
-<!--<project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="lineage" revision="lineage-15.1-caf" />-->
+  <!--<project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="lineage" revision="lineage-15.1-caf" />-->
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="lineage" />
-<!--<project path="hardware/ril-caf" name="android_hardware_ril" groups="pdk" remote="lineage" revision="lineage-15.1-caf" />-->
+  <!--<project path="hardware/ril-caf" name="android_hardware_ril" groups="pdk" remote="lineage" revision="lineage-15.1-caf" />-->
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="lineage" />
-<!--<project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="lineage" />-->
+  <!--<project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="lineage" />-->
   <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" groups="pdk-fs" remote="lineage" />
-<!--<project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="lineage" />-->
+  <!--<project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="lineage" />-->
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" groups="pdk-fs" remote="lineage" />
-<!--<project path="packages/apps/Jelly" name="android_packages_apps_Jelly" groups="pdk-fs" remote="lineage" />-->
+  <!--<project path="packages/apps/Jelly" name="android_packages_apps_Jelly" groups="pdk-fs" remote="lineage" />-->
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" groups="pdk-fs" remote="lineage" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="lineage" />
   <project path="packages/apps/Traceur" name="android_packages_apps_Traceur" groups="pdk-fs" remote="lineage" />
   <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" groups="pdk-fs" remote="lineage" />
   <project path="packages/apps/WallpaperPicker" name="android_packages_apps_WallpaperPicker" groups="pdk-fs" remote="lineage" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
-<!--<project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" groups="pdk-fs" remote="lineage" />
+  <!--<project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" groups="pdk-fs" remote="lineage" />
   <project path="platform_testing" name="android_platform_testing" groups="pdk-fs,pdk-cw-fs,cts" remote="lineage" />
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" groups="pdk" clone-depth="1" remote="lineage" />-->
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="lineage" />
-<!--<project path="system/libhidl" name="android_system_libhidl" groups="pdk" remote="lineage" />-->
+  <!--<project path="system/libhidl" name="android_system_libhidl" groups="pdk" remote="lineage" />-->
   <project path="system/netd" name="android_system_netd" groups="pdk" remote="lineage" />
-<!--<project path="system/qcom" name="android_system_qcom" groups="qcom" remote="lineage" />-->
+  <!--<project path="system/qcom" name="android_system_qcom" groups="qcom" remote="lineage" />-->
   <project path="system/security" name="android_system_security" groups="pdk" remote="lineage" />
   <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="lineage" />
   <project path="system/tools/aidl" name="android_system_tools_aidl" groups="pdk" remote="lineage" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage" />
   <project path="system/tools/hidl" name="android_system_tools_hidl" groups="pdk" remote="lineage" />
-    <!--<project path="vendor/nxp/interfaces/opensource/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="lineage" >
-    <linkfile dest="vendor/nxp/interfaces/Android.bp" src="prop_pickup.bp"/>
-  </project>
+  <!--<project path="vendor/nxp/interfaces/opensource/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="lineage" />
   <project path="vendor/nxp/opensource/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="lineage" />
   <project path="vendor/nxp/opensource/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="lineage" />
   <project path="vendor/nxp/opensource/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="lineage" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="lineage" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="lineage" />-->
-  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="lineage" >
-    <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp" />
-  </project>
-<!--<project path="vendor/qcom/opensource/rcs-service" name="android_vendor_qcom_opensource_rcs-service" remote="lineage" />-->
+  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="lineage" />
+  <!--<project path="vendor/qcom/opensource/rcs-service" name="android_vendor_qcom_opensource_rcs-service" remote="lineage" />-->
   <!-- FINISH LINEAGE -->
 
 </manifest>
