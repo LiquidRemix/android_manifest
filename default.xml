@@ -83,7 +83,6 @@
   <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk" />
   <project path="external/drrickorang" name="platform/external/drrickorang" groups="pdk" />
   <project path="external/dtc" name="platform/external/dtc" groups="pdk" />
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
   <project path="external/easymock" name="platform/external/easymock" groups="pdk" />
   <project path="external/eigen" name="platform/external/eigen" groups="pdk" />
   <project path="external/emma" name="platform/external/emma" groups="pdk" />
@@ -597,6 +596,7 @@
   <project path="external/ebtables" name="android_external_ebtables" remote="lineage" />
   <project path="external/exfat" name="android_external_exfat" remote="lineage" />-->
   <project path="external/gptfdisk" name="android_external_gptfdisk" groups="pdk" remote="lineage" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="lineage" />
   <project path="external/elfutils" name="android_external_elfutils" groups="pdk" remote="lineage" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" groups="pdk" remote="lineage" />
 <!--<project path="external/fuse" name="android_external_fuse" remote="lineage" />
