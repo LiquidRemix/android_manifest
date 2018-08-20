@@ -86,7 +86,6 @@
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
   <project path="external/easymock" name="platform/external/easymock" groups="pdk" />
   <project path="external/eigen" name="platform/external/eigen" groups="pdk" />
-  <project path="external/elfutils" name="platform/external/elfutils" groups="pdk" />
   <project path="external/emma" name="platform/external/emma" groups="pdk" />
   <project path="external/error_prone" name="platform/external/error_prone" groups="pdk" />
   <project path="external/esd" name="platform/external/esd" groups="pdk" />
@@ -597,8 +596,8 @@
   <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" remote="lineage" clone-depth="1" />
   <project path="external/connectivity" name="android_external_connectivity" remote="lineage" />
   <project path="external/ebtables" name="android_external_ebtables" remote="lineage" />
-  <project path="external/elfutils" name="android_external_elfutils" groups="pdk" remote="lineage" />
   <project path="external/exfat" name="android_external_exfat" remote="lineage" />-->
+  <project path="external/elfutils" name="android_external_elfutils" groups="pdk" remote="lineage" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" groups="pdk" remote="lineage" />
 <!--<project path="external/fuse" name="android_external_fuse" remote="lineage" />
   <project path="external/json-c" name="android_external_json-c" remote="lineage" />
