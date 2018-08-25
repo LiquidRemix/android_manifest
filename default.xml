@@ -604,9 +604,9 @@
   <project path="external/elfutils" name="android_external_elfutils" groups="pdk" remote="lineage" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" groups="pdk" remote="lineage" />
   <!--<project path="external/fuse" name="android_external_fuse" remote="lineage" />
-  <project path="external/json-c" name="android_external_json-c" remote="lineage" />
   <project path="external/libdrm" name="android_external_libdrm" groups="pdk" remote="lineage" />
   <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />-->
+  <project path="external/json-c" name="android_external_json-c" remote="lineage" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="lineage" />
   <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="lineage" />
   <project path="external/one-true-awk" name="android_external_one-true-awk" groups="pdk" remote="lineage" />
