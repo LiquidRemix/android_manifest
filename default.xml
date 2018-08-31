@@ -22,7 +22,7 @@
            remote="aosp"
            sync-c="true"
            sync-f="true"
-           sync-j="8" />
+           sync-j="12" />
 
   <!-- START AOSP -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
