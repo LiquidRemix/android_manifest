@@ -577,7 +577,6 @@
   <!--<project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="liquid" />-->
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="liquid" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="liquid" />
-  <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" groups="pdk" clone-depth="1" remote="liquid" />
   <project path="system/bt" name="android_system_bt" groups="pdk" remote="liquid" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="liquid" />
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="liquid" />
@@ -664,11 +663,11 @@
   <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" groups="pdk-fs" remote="lineage" />
   <project path="packages/apps/WallpaperPicker" name="android_packages_apps_WallpaperPicker" groups="pdk-fs" remote="lineage" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
+  <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" groups="pdk" clone-depth="1" remote="lineage" />
   <!--<project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" groups="pdk-fs" remote="lineage" />
   <project path="platform_testing" name="android_platform_testing" groups="pdk-fs,pdk-cw-fs,cts" remote="lineage" />
-  <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" groups="pdk" clone-depth="1" remote="lineage" />-->
+  <project path="system/libhidl" name="android_system_libhidl" groups="pdk" remote="lineage" />-->
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="lineage" />
-  <!--<project path="system/libhidl" name="android_system_libhidl" groups="pdk" remote="lineage" />-->
   <project path="system/netd" name="android_system_netd" groups="pdk" remote="lineage" />
   <!--<project path="system/qcom" name="android_system_qcom" groups="qcom" remote="lineage" />-->
   <project path="system/security" name="android_system_security" groups="pdk" remote="lineage" />
