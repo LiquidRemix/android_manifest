@@ -645,8 +645,8 @@
   <project path="hardware/qcom/media-caf/msm8994" name="android_hardware_qcom_media" groups="qcom,pdk" remote="lineage" revision="lineage-16.0-caf-8994" />
   <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" groups="qcom,pdk" remote="lineage" revision="lineage-16.0-caf-8996" />
   <project path="hardware/qcom/media-caf/msm8998" name="android_hardware_qcom_media" groups="qcom,pdk" remote="lineage" revision="lineage-16.0-caf-8998" />
-  <!--<project path="hardware/qcom/power" name="android_hardware_qcom_power" groups="qcom,qcom_power" remote="lineage" />
-  <project path="hardware/qcom/thermal" name="android_hardware_qcom_thermal" groups="qcom,qcom_thermal" remote="lineage" />
+  <project path="hardware/qcom/power" name="android_hardware_qcom_power" groups="qcom,qcom_power" remote="lineage" />
+  <!--<project path="hardware/qcom/thermal" name="android_hardware_qcom_thermal" groups="qcom,qcom_thermal" remote="lineage" />
   <project path="hardware/qcom/vr" name="android_hardware_qcom_vr" groups="qcom,qcom_vr" remote="lineage" />-->
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="lineage" revision="lineage-16.0" />
   <!--<project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="lineage" revision="lineage-15.1-caf" />-->
