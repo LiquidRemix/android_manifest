@@ -588,9 +588,7 @@
   <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="lineage" />
   <!--<project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="lineage" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="lineage" />
-  <project path="external/brctl" name="android_external_brctl" remote="lineage" />
   <project path="external/connectivity" name="android_external_connectivity" remote="lineage" />
-  <project path="external/ebtables" name="android_external_ebtables" remote="lineage" />
   <project path="external/exfat" name="android_external_exfat" remote="lineage" />-->
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="lineage" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" groups="pdk" remote="lineage" />
@@ -673,7 +671,6 @@
   <project path="system/libhidl" name="android_system_libhidl" groups="pdk" remote="lineage" />-->
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="lineage" />
   <project path="system/netd" name="android_system_netd" groups="pdk" remote="lineage" />
-  <!--<project path="system/qcom" name="android_system_qcom" groups="qcom" remote="lineage" />-->
   <project path="system/security" name="android_system_security" groups="pdk" remote="lineage" />
   <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="lineage" />
   <project path="system/tools/aidl" name="android_system_tools_aidl" groups="pdk" remote="lineage" />
