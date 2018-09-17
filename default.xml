@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+<!-- GSI remotes -->
+  <remote name="phh" fetch="https://github.com/phhusson/" />
+
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
 
@@ -579,7 +582,11 @@
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="liquid" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="liquid" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="liquid" />
-  <project path="vendor/liquid" name="android_vendor_liquid" remote="liquid" />
+  <project path="vendor/liquid" name="android_vendor_liquid" remote="liquid" revision="pie-gsi" >
+   <linkfile src="GSI/buildsupport/liquidremix_gsi.sh" dest="liquidremix_gsi.sh" />
+   <linkfile src="GSI/buildsupport/apply-patch.sh" dest="apply-patch.sh" />
+  </project>
+
   <!-- FINISH LIQUID -->
 
   <!-- START LINEAGE -->
@@ -685,5 +692,14 @@
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="lineage" />
   <!--<project path="vendor/qcom/opensource/rcs-service" name="android_vendor_qcom_opensource_rcs-service" remote="lineage" />-->
   <!-- FINISH LINEAGE -->
+
+<!-- GSI repos -->
+  <project path="device/phh/treble" name="device_phh_treble" remote="phh" revision="android-9.0" />
+  <project path="external/exfat" name="exfat" remote="phh" revision="android.bp-pie" />
+  <project path="patches" name="treble_patches" remote="phh"  revision="android-9.0" />
+  <project path="vendor/hardware_overlay" name="vendor_hardware_overlay" remote="phh" revision="pie" />
+  <project path="vendor/vndk" name="vendor_vndk" remote="phh" revision="master" />
+  <project path="vendor/vndk-tests" name="vendor_vndk-tests" remote="phh" revision="master" />
+  <project path="vendor/interfaces" name="vendor_interfaces" remote="phh" revision="pie" />
 
 </manifest>
