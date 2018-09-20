@@ -560,14 +560,14 @@
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" groups="pdk" remote="liquid" />
   <project path="frameworks/support" name="android_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="liquid" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="liquid" />
-  <project path="hardware/qcom/audio-caf/msm8998" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="liquid" revision="lineage-16.0-caf-8998" />
-  <project path="hardware/qcom/audio-caf/sdm845" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="liquid" revision="lineage-16.0-caf-845" />
+  <project path="hardware/qcom/audio-caf/msm8998" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="liquid" revision="liquid-pie-caf-8998" />
+  <project path="hardware/qcom/audio-caf/sdm845" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="liquid" revision="liquid-pie-caf-845" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom,pdk-qcom" remote="liquid" />
   <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" groups="qcom,pdk-qcom" remote="liquid" revision="pie-caf" />
-  <project path="hardware/qcom/display-caf/msm8998" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="liquid" revision="lineage-16.0-caf-8998" />
-  <project path="hardware/qcom/display-caf/sdm845" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="liquid" revision="lineage-16.0-caf-845" />
-  <project path="hardware/qcom/media-caf/msm8998" name="android_hardware_qcom_media" groups="qcom,pdk" remote="liquid" revision="lineage-16.0-caf-8998" />
-  <project path="hardware/qcom/media-caf/sdm845" name="android_hardware_qcom_media" groups="qcom,pdk" remote="liquid" revision="lineage-16.0-caf-845" />
+  <project path="hardware/qcom/display-caf/msm8998" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="liquid" revision="liquid-pie-caf-8998" />
+  <project path="hardware/qcom/display-caf/sdm845" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="liquid" revision="liquid-pie-caf-845" />
+  <project path="hardware/qcom/media-caf/msm8998" name="android_hardware_qcom_media" groups="qcom,pdk" remote="liquid" revision="liquid-pie-caf-8998" />
+  <project path="hardware/qcom/media-caf/sdm845" name="android_hardware_qcom_media" groups="qcom,pdk" remote="liquid" revision="liquid-pie-caf-845" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="liquid" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" groups="pdk-fs" remote="liquid" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" groups="pdk-fs" remote="liquid" />
