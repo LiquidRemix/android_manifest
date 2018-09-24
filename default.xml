@@ -546,7 +546,7 @@
   <project path="bionic" name="android_bionic" groups="pdk" remote="liquid" />
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="liquid" />
   <project path="dalvik" name="android_dalvik" groups="pdk-cw-fs,pdk-fs" remote="liquid" />
-  <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="liquid" />
+  <project path="device/liquid/sepolicy" name="android_device_liquid_sepolicy" remote="liquid" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="liquid" />
   <!--<project path="external/DUtils" name="android_external_DUtils" remote="liquid" />-->
   <project path="external/perfetto" name="android_external_perfetto" groups="pdk" remote="liquid" />
