@@ -546,6 +546,7 @@
   <project path="bionic" name="android_bionic" groups="pdk" remote="liquid" />
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="liquid" />
   <project path="dalvik" name="android_dalvik" groups="pdk-cw-fs,pdk-fs" remote="liquid" />
+  <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="liquid" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="liquid" />
   <!--<project path="external/DUtils" name="android_external_DUtils" remote="liquid" />-->
   <project path="external/perfetto" name="android_external_perfetto" groups="pdk" remote="liquid" />
@@ -600,7 +601,6 @@
 
   <!-- START LINEAGE -->
   <project path="build/kati" name="android_build_kati" groups="pdk,tradefed" remote="lineage" />
-  <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="lineage" />
   <!--<project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="lineage" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="lineage" />
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="lineage" />-->
