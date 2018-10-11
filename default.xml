@@ -566,9 +566,11 @@
   <project path="hardware/qcom/display-caf/msm8998" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="liquid" revision="liquid-pie-caf-8998" />
   <project path="hardware/qcom/display-caf/msm8996" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="liquid" revision="liquid-pie-caf-8996" />
   <project path="hardware/qcom/display-caf/sdm845" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="liquid" revision="liquid-pie-caf-845" />
+  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk-qcom" remote="liquid"/>
   <project path="hardware/qcom/media-caf/msm8998" name="android_hardware_qcom_media" groups="qcom,pdk" remote="liquid" revision="liquid-pie-caf-8998" />
   <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" groups="qcom,pdk" remote="liquid" revision="liquid-pie-caf-8996" />
   <project path="hardware/qcom/media-caf/sdm845" name="android_hardware_qcom_media" groups="qcom,pdk" remote="liquid" revision="liquid-pie-caf-845" />
+  <project path="hardware/qcom/power" name="android_hardware_qcom_power" groups="qcom,qcom_power" remote="liquid" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="liquid" />
   <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="liquid" revision="pie-caf" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="liquid" />
@@ -593,6 +595,7 @@
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="liquid" />
   <project path="system/bt" name="android_system_bt" groups="pdk" remote="liquid" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="liquid" />
+  <project path="system/qcom" name="android_system_qcom" groups="pdk" remote="liquid" />
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="liquid" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="liquid" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="liquid" />
@@ -643,16 +646,14 @@
   <project path="hardware/qcom/display-caf/msm8974" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="lineage" revision="lineage-16.0-caf-8974" />
   <project path="hardware/qcom/display-caf/msm8994" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="lineage" revision="lineage-16.0-caf-8994" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom,qcom_gps,pdk-qcom" remote="lineage" />
-  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk-qcom" remote="lineage" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" groups="qcom,pdk" remote="lineage" />
   <project path="hardware/qcom/media-caf/msm8916" name="android_hardware_qcom_media" groups="qcom,pdk" remote="lineage" revision="lineage-16.0-caf-8916" />
   <project path="hardware/qcom/media-caf/msm8952" name="android_hardware_qcom_media" groups="qcom,pdk" remote="lineage" revision="lineage-16.0-caf-8952" />
   <project path="hardware/qcom/media-caf/msm8960" name="android_hardware_qcom_media" groups="qcom,pdk" remote="lineage" revision="lineage-16.0-caf-8960" />
   <project path="hardware/qcom/media-caf/msm8974" name="android_hardware_qcom_media" groups="qcom,pdk" remote="lineage" revision="lineage-16.0-caf-8974" />
   <project path="hardware/qcom/media-caf/msm8994" name="android_hardware_qcom_media" groups="qcom,pdk" remote="lineage" revision="lineage-16.0-caf-8994" />
-  <project path="hardware/qcom/power" name="android_hardware_qcom_power" groups="qcom,qcom_power" remote="lineage" />
-  <!--<project path="hardware/qcom/thermal" name="android_hardware_qcom_thermal" groups="qcom,qcom_thermal" remote="lineage" />
-  <project path="hardware/qcom/vr" name="android_hardware_qcom_vr" groups="qcom,qcom_vr" remote="lineage" />-->
+  <project path="hardware/qcom/thermal" name="android_hardware_qcom_thermal" groups="qcom,qcom_thermal" remote="lineage" revision="lineage-15.1" />
+  <project path="hardware/qcom/vr" name="android_hardware_qcom_vr" groups="qcom,qcom_vr" remote="lineage" revision="lineage-15.1" />
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="lineage" />
   <project path="hardware/ril-caf" name="android_hardware_ril" groups="pdk" remote="lineage" revision="lineage-16.0-caf" />
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="lineage" />
