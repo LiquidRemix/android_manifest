@@ -566,6 +566,7 @@
   <project path="hardware/qcom/display-caf/msm8998" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="liquid" revision="liquid-pie-caf-8998" />
   <project path="hardware/qcom/display-caf/msm8996" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="liquid" revision="liquid-pie-caf-8996" />
   <project path="hardware/qcom/display-caf/sdm845" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="liquid" revision="liquid-pie-caf-845" />
+  <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" groups="qcom" remote="liquid" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk-qcom" remote="liquid"/>
   <project path="hardware/qcom/media-caf/msm8998" name="android_hardware_qcom_media" groups="qcom,pdk" remote="liquid" revision="liquid-pie-caf-8998" />
   <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" groups="qcom,pdk" remote="liquid" revision="liquid-pie-caf-8996" />
@@ -578,6 +579,7 @@
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="liquid" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" groups="pdk-fs" remote="liquid" />
   <!--<project path="packages/apps/DUI" name="android_packages_apps_DUI" remote="liquid" />-->
+  <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="liquid" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" groups="pdk-fs" remote="liquid" />
   <project path="packages/apps/LiquidOTA" name="android_packages_apps_LiquidOTA" remote="liquid" />
   <!--<project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="liquid" />
@@ -660,7 +662,6 @@
   <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="lineage" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" remote="lineage" />
   <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" groups="pdk-fs" remote="lineage" />
-  <!--<project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="lineage" />-->
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" groups="pdk-fs" remote="lineage" />
   <project path="packages/apps/Jelly" name="android_packages_apps_Jelly" groups="pdk-fs" remote="lineage" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" groups="pdk-fs" remote="lineage" />
