@@ -526,6 +526,7 @@
   <!-- FINISH AOSP -->
 
   <!-- START LIQUID -->
+  <project path="build/kati" name="android_build_kati" groups="pdk,tradefed" remote="liquid" />
   <project path="build/make" name="android_build" groups="pdk" remote="liquid" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -604,7 +605,6 @@
   <!-- FINISH LIQUID -->
 
   <!-- START LINEAGE -->
-  <project path="build/kati" name="android_build_kati" groups="pdk,tradefed" remote="lineage" />
   <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy-legacy" remote="lineage" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="lineage" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="lineage" />
