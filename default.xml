@@ -547,7 +547,6 @@
   <project path="device/liquid/sepolicy" name="android_device_liquid_sepolicy" remote="liquid" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="liquid" />
   <project path="external/perfetto" name="android_external_perfetto" groups="pdk" remote="liquid" />
-  <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="liquid" />
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="liquid" />
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="liquid" />
   <project path="frameworks/liquid" name="android_frameworks_liquid" groups="pdk-cw-fs,pdk-fs" remote="liquid" />
@@ -605,6 +604,7 @@
   <project path="external/one-true-awk" name="android_external_one-true-awk" groups="pdk" remote="lineage" />
   <project path="external/selinux" name="android_external_selinux" groups="pdk" remote="lineage" />
   <project path="external/toybox" name="android_external_toybox" groups="pdk" remote="lineage" />
+  <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="lineage" />
   <project path="external/zlib" name="android_external_zlib" groups="pdk" remote="lineage" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" remote="lineage" />
   <project path="hardware/broadcom/nfc" name="android_hardware_broadcom_nfc" remote="lineage" />
