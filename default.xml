@@ -546,7 +546,6 @@
   <project path="dalvik" name="android_dalvik" groups="pdk-cw-fs,pdk-fs" remote="liquid" />
   <project path="device/liquid/sepolicy" name="android_device_liquid_sepolicy" remote="liquid" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="liquid" />
-  <!--<project path="external/DUtils" name="android_external_DUtils" remote="liquid" />-->
   <project path="external/perfetto" name="android_external_perfetto" groups="pdk" remote="liquid" />
   <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="liquid" />
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="liquid" />
@@ -618,14 +617,11 @@
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="lineage" />
   <project path="external/elfutils" name="android_external_elfutils" groups="pdk" remote="lineage" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" groups="pdk" remote="lineage" />
-  <!--<project path="external/fuse" name="android_external_fuse" remote="lineage" />
-  <project path="external/libdrm" name="android_external_libdrm" groups="pdk" remote="lineage" />-->
-  <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />
   <project path="external/json-c" name="android_external_json-c" remote="lineage" />
+  <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="lineage" />
   <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="lineage" />
   <project path="external/one-true-awk" name="android_external_one-true-awk" groups="pdk" remote="lineage" />
-  <!--<project path="external/powertop" name="android_external_powertop" remote="lineage" />-->
   <project path="external/selinux" name="android_external_selinux" groups="pdk" remote="lineage" />
   <project path="external/toybox" name="android_external_toybox" groups="pdk" remote="lineage" />
   <project path="external/zlib" name="android_external_zlib" groups="pdk" remote="lineage" />
@@ -673,8 +669,6 @@
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" groups="pdk-fs" remote="lineage" />
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" groups="pdk" clone-depth="1" remote="lineage" />
-  <!--<project path="platform_testing" name="android_platform_testing" groups="pdk-fs,pdk-cw-fs,cts" remote="lineage" />
-  <project path="system/libhidl" name="android_system_libhidl" groups="pdk" remote="lineage" />-->
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="lineage" />
   <project path="system/netd" name="android_system_netd" groups="pdk" remote="lineage" />
   <project path="system/security" name="android_system_security" groups="pdk" remote="lineage" />
@@ -688,10 +682,9 @@
   <project path="vendor/nxp/opensource/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="lineage" />
   <project path="vendor/nxp/opensource/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="lineage" />
   <project path="vendor/nxp/opensource/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="lineage" />
-  <!--<project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="lineage" />-->
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="lineage" />
+  <!--  <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="lineage" /> -->
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="lineage" />
-  <!--<project path="vendor/qcom/opensource/rcs-service" name="android_vendor_qcom_opensource_rcs-service" remote="lineage" />-->
   <!-- FINISH LINEAGE -->
 
 </manifest>
