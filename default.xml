@@ -558,8 +558,6 @@
   <project path="frameworks/support" name="android_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="liquid" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="liquid" />
   <project path="hardware/liquid/telephony" name="android_hardware_liquid_telephony" remote="liquid" />
-  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="liquid" />
-  <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="liquid" revision="pie-caf" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="liquid" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" groups="pdk-fs" remote="liquid" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="liquid" />
@@ -653,6 +651,8 @@
   <project path="hardware/qcom/vr" name="android_hardware_qcom_vr" groups="qcom,qcom_vr" remote="lineage" />
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="lineage" />
   <project path="hardware/ril-caf" name="android_hardware_ril" groups="pdk" remote="lineage" revision="lineage-16.0-caf" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="lineage" />
+  <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="lineage" revision="lineage-16.0-caf" />
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="lineage" />
   <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="lineage" />
   <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" groups="pdk-fs" remote="lineage" />
