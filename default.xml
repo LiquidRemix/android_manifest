@@ -294,7 +294,6 @@
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" />
   <project path="external/shaderc/spirv-headers" name="platform/external/shaderc/spirv-headers" groups="pdk" />
   <project path="external/shflags" name="platform/external/shflags" groups="pdk" />
-  <project path="external/skia" name="platform/external/skia" groups="pdk,qcom_msm8x26" />
   <project path="external/skqp" name="platform/external/skqp" groups="cts" clone-depth="1" />
   <project path="external/sl4a" name="platform/external/sl4a" groups="pdk" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk" />
@@ -600,6 +599,7 @@
   <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="lineage" />
   <project path="external/one-true-awk" name="android_external_one-true-awk" groups="pdk" remote="lineage" />
   <project path="external/selinux" name="android_external_selinux" groups="pdk" remote="lineage" />
+  <project path="external/skia" name="android_external_skia" groups="pdk,qcom_msm8x26" remote="lineage" />
   <project path="external/toybox" name="android_external_toybox" groups="pdk" remote="lineage" />
   <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="lineage" />
   <project path="external/zlib" name="android_external_zlib" groups="pdk" remote="lineage" />
