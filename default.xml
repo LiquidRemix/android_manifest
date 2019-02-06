@@ -573,7 +573,6 @@
   <project path="prebuilts/clang/host/linux-x86" name="android_prebuilts_clang_host_linux-x86" clone-depth="1" remote="liquid" />
   <project path="system/bt" name="android_system_bt" groups="pdk" remote="liquid" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="liquid" />
-  <project path="system/qcom" name="android_system_qcom" groups="pdk" remote="liquid" />
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="liquid" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="liquid" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="liquid" />
