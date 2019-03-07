@@ -236,7 +236,6 @@
   <project path="external/piex" name="platform/external/piex" groups="pdk" />
   <project path="external/ppp" name="platform/external/ppp" groups="pdk" />
   <project path="external/ply" name="platform/external/ply" groups="pdk" />
-  <project path="external/proguard" name="platform/external/proguard" groups="pdk" />
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" />
   <project path="external/puffin" name="platform/external/puffin" groups="pdk" />
   <project path="external/python/appdirs" name="platform/external/python/appdirs" groups="vts,pdk" />
@@ -598,6 +597,7 @@
   <project path="external/libtar" name="android_external_libtar" remote="lineage" />
   <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="lineage" />
   <project path="external/one-true-awk" name="android_external_one-true-awk" groups="pdk" remote="lineage" />
+  <project path="external/proguard" name="android_external_proguard" groups="pdk" remote="lineage" />
   <project path="external/selinux" name="android_external_selinux" groups="pdk" remote="lineage" />
   <project path="external/skia" name="android_external_skia" groups="pdk,qcom_msm8x26" remote="lineage" />
   <project path="external/toybox" name="android_external_toybox" groups="pdk" remote="lineage" />
