@@ -574,6 +574,7 @@
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="liquid" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="liquid" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="liquid" />
+  <project path="vendor/interfaces" name="android_vendor_interfaces" remote="liquid" />
   <project path="vendor/liquid" name="android_vendor_liquid" remote="liquid" />
   <!-- FINISH LIQUID -->
 
