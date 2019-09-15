@@ -9,7 +9,7 @@ familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the LiquidRemix trees, use a command like this:
 
-    repo init -u git://github.com/LiquidRemix/android_manifest.git -b pie
+    repo init -u git://github.com/LiquidRemix/android_manifest.git -b ten
 
 Then to sync up:
 
