@@ -627,6 +627,7 @@
   <project path="system/bt" name="android_system_bt" groups="pdk" remote="liquid" />
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="liquid" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="liquid" />
+  <project path="vendor/liquid" name="android_vendor_liquid" groups="pdk" remote="liquid" />
 
 <!-- Lineage Projects -->
   <project path="device/generic/goldfish" name="android_device_generic_goldfish" groups="pdk" remote="lineage" />
