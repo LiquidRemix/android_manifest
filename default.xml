@@ -335,7 +335,6 @@
   <project path="external/tensorflow" name="platform/external/tensorflow" groups="pdk" remote="aosp" />
   <project path="external/testng" name="platform/external/testng" groups="pdk" remote="aosp" />
   <project path="external/tinyalsa" name="platform/external/tinyalsa" groups="pdk" remote="aosp" />
-  <project path="external/tinycompress" name="platform/external/tinycompress" groups="pdk" remote="aosp" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" remote="aosp" />
   <project path="external/toolchain-utils" name="platform/external/toolchain-utils" remote="aosp" />
@@ -641,6 +640,7 @@
 <!-- Lineage Projects -->
   <project path="device/generic/goldfish" name="android_device_generic_goldfish" groups="pdk" remote="lineage" />
   <project path="external/selinux" name="android_external_selinux" groups="pdk" remote="lineage" />
+  <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="lineage" />
   <project path="packages/apps/BasicSmsReceiver" name="android_packages_apps_BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" groups="pdk-fs" remote="lineage" />
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" groups="pdk-fs" remote="lineage" />
