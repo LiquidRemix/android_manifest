@@ -682,6 +682,7 @@
   <project path="prebuilts/r8" name="android_prebuilts_r8" groups="pdk" clone-depth="1" remote="lineage" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="lineage" />
   <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="lineage" />
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="lineage" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
