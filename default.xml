@@ -634,6 +634,7 @@
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="liquid" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="liquid" />
   <project path="system/bt" name="android_system_bt" groups="pdk" remote="liquid" />
+  <project path="system/core" name="android_system_core" groups="pdk" remote="liquid" />
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="liquid" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="liquid" />
   <project path="vendor/liquid" name="android_vendor_liquid" groups="pdk" remote="liquid" />
@@ -682,7 +683,6 @@
   <project path="packages/services/BuiltInPrintService" name="android_packages_services_BuiltInPrintService" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="prebuilts/r8" name="android_prebuilts_r8" groups="pdk" clone-depth="1" remote="lineage" />
   <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" clone-depth="1" remote="lineage" />
-  <project path="system/core" name="android_system_core" groups="pdk" remote="lineage" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage" />
   <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="lineage" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="lineage" />
