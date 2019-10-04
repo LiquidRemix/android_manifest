@@ -698,6 +698,7 @@
   <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="lineage" />
 
 <!-- Lineage HALs -->
+  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="lineage" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="lineage" />
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="lineage" >
     <!-- add guard for AOSP hardware/qcom dir -->
