@@ -406,7 +406,6 @@
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" remote="aosp" />
   <project path="hardware/nxp/nfc" name="platform/hardware/nxp/nfc" groups="pdk" remote="aosp" />
   <project path="hardware/nxp/secure_element" name="platform/hardware/nxp/secure_element" groups="pdk" remote="aosp" />
-  <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk-qcom" remote="aosp" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom,pdk-qcom" remote="aosp" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom_camera,pdk-qcom" remote="aosp" />
   <project path="hardware/qcom/data/ipacfg-mgr" name="platform/hardware/qcom/data/ipacfg-mgr" groups="qcom,pdk-qcom" remote="aosp" />
@@ -725,6 +724,7 @@
     <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
     <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
   </project>
+  <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" groups="pdk-qcom" remote="lineage" />
   <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" groups="qcom,pdk-qcom" revision="lineage-17.0-caf" remote="lineage" />
   <project path="hardware/qcom-caf/msm8916/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.0-caf-msm8916" remote="lineage" />
   <project path="hardware/qcom-caf/msm8916/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-17.0-caf-msm8916" remote="lineage" />
