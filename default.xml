@@ -25,7 +25,6 @@
            sync-j="12" />
 
   <!-- AOSP Projects -->
-  <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="developers/build" name="platform/developers/build" groups="developers,pdk" remote="aosp" />
   <project path="development" name="platform/development" groups="developers,pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -242,7 +241,6 @@
   <project path="external/Microsoft-GSL" name="platform/external/Microsoft-GSL" groups="pdk" remote="aosp" />
   <project path="external/minigbm" name="platform/external/minigbm" groups="pdk" remote="aosp" />
   <project path="external/minijail" name="platform/external/minijail" groups="pdk" remote="aosp" />
-  <project path="external/mksh" name="platform/external/mksh" groups="pdk" remote="aosp" />
   <project path="external/mockftpserver" name="platform/external/mockftpserver" groups="pdk" remote="aosp" />
   <project path="external/mockito" name="platform/external/mockito" groups="pdk" remote="aosp" />
   <project path="external/mockwebserver" name="platform/external/mockwebserver" groups="pdk" remote="aosp" />
@@ -395,7 +393,6 @@
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" remote="aosp" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" remote="aosp" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" remote="aosp" />
   <project path="hardware/google/apf" name="platform/hardware/google/apf" groups="pdk" remote="aosp" />
   <project path="hardware/google/av" name="platform/hardware/google/av" groups="pdk" remote="aosp" />
@@ -406,18 +403,14 @@
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" remote="aosp" />
   <project path="hardware/nxp/nfc" name="platform/hardware/nxp/nfc" groups="pdk" remote="aosp" />
   <project path="hardware/nxp/secure_element" name="platform/hardware/nxp/secure_element" groups="pdk" remote="aosp" />
-  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom,pdk-qcom" remote="aosp" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom_camera,pdk-qcom" remote="aosp" />
   <project path="hardware/qcom/data/ipacfg-mgr" name="platform/hardware/qcom/data/ipacfg-mgr" groups="qcom,pdk-qcom" remote="aosp" />
-  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps,pdk-qcom" remote="aosp" />
-  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom,pdk-qcom" remote="aosp" />
   <project path="hardware/qcom/msm8996" name="platform/hardware/qcom/msm8996" groups="qcom_msm8996,pdk-qcom" remote="aosp" />
   <project path="hardware/qcom/neuralnetworks/hvxservice" name="platform/hardware/qcom/neuralnetworks/hvxservice" groups="wahoo" remote="aosp" />
   <project path="hardware/qcom/sdm845/bt" name="platform/hardware/qcom/sdm845/bt" groups="qcom_sdm845" remote="aosp" />
   <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" groups="vendor,qcom_sdm845" remote="aosp" >
     <linkfile dest="hardware/qcom/sdm845/Android.bp" src="os_pickup.bp" />
   </project>
-  <project path="hardware/qcom/sdm845/display" name="platform/hardware/qcom/sdm845/display" groups="qcom_sdm845" remote="aosp" />
   <project path="hardware/qcom/sdm845/gps" name="platform/hardware/qcom/sdm845/gps" groups="qcom_sdm845" remote="aosp" />
   <project path="hardware/qcom/sdm845/media" name="platform/hardware/qcom/sdm845/media" groups="qcom_sdm845" remote="aosp" />
   <project path="hardware/qcom/sdm845/thermal" name="platform/hardware/qcom/sdm845/thermal" groups="generic_fs,qcom_sdm845" remote="aosp" />
@@ -463,7 +456,6 @@
   <project path="packages/services/AlternativeNetworkAccess" name="platform/packages/services/AlternativeNetworkAccess" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/services/Car" name="platform/packages/services/Car" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="pdk" name="platform/pdk" groups="pdk" remote="aosp" />
-  <project path="platform_testing" name="platform/platform_testing" groups="pdk-fs,pdk-cw-fs,cts" remote="aosp" />
   <project path="prebuilts/abi-dumps/ndk" name="platform/prebuilts/abi-dumps/ndk" groups="pdk-fs" clone-depth="1" remote="aosp" />
   <project path="prebuilts/abi-dumps/vndk" name="platform/prebuilts/abi-dumps/vndk" groups="pdk-fs" clone-depth="1" remote="aosp" />
   <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" groups="pdk-fs" clone-depth="1" remote="aosp" />
@@ -534,7 +526,6 @@
   <project path="system/libvintf" name="platform/system/libvintf" groups="pdk" remote="aosp" />
   <project path="system/linkerconfig" name="platform/system/linkerconfig" groups="pdk" remote="aosp" />
   <project path="system/media" name="platform/system/media" groups="pdk" remote="aosp" />
-  <project path="system/netd" name="platform/system/netd" groups="pdk" remote="aosp" />
   <project path="system/nfc" name="platform/system/nfc" groups="pdk" remote="aosp" />
   <project path="system/nvram" name="platform/system/nvram" groups="pdk" remote="aosp" />
   <project path="system/security" name="platform/system/security" groups="pdk" remote="aosp" />
@@ -644,12 +635,16 @@
   <project path="vendor/liquid" name="android_vendor_liquid" groups="pdk" remote="liquid" />
 
 <!-- Lineage Projects -->
+  <project path="build/blueprint" name="android_build_blueprint" groups="pdk,tradefed" remote="lineage" />
   <project path="device/generic/goldfish" name="android_device_generic_goldfish" groups="pdk" remote="lineage" />
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="lineage-17.0-legacy-um" remote="lineage" />
   <project path="external/connectivity" name="android_external_connectivity" groups="qcom,pdk-qcom" remote="lineage" />
   <project path="external/json-c" name="android_external_json-c" groups="qcom,pdk-qcom" remote="lineage" />
+  <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="lineage" />
   <project path="external/selinux" name="android_external_selinux" groups="pdk" remote="lineage" />
   <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="lineage" />
+  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" remote="lineage" />
+  <project path="hardware/broadcom/nfc" name="android_hardware_broadcom_nfc" remote="lineage" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="lineage" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk-qcom" remote="lineage" />
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="lineage" />
@@ -691,24 +686,29 @@
   <project path="packages/services/Mms" name="android_packages_services_Mms" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="packages/wallpapers/LivePicker" name="android_packages_wallpapers_LivePicker" groups="pdk-fs" remote="lineage" />
   <project path="packages/services/BuiltInPrintService" name="android_packages_services_BuiltInPrintService" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
+  <project path="platform_testing" name="android_platform_testing" groups="pdk-fs,pdk-cw-fs,cts" remote="lineage" />
   <project path="prebuilts/r8" name="android_prebuilts_r8" groups="pdk" clone-depth="1" remote="lineage" />
   <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" clone-depth="1" remote="lineage" />
+  <project path="system/netd" name="android_system_netd" groups="pdk" remote="lineage" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage" />
   <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="lineage" />
 
 <!-- Lineage HALs -->
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="lineage" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="lineage" />
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom,pdk-qcom" remote="lineage" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom,qcom_gps,pdk-qcom" remote="lineage" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="lineage" />
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="lineage" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <!-- for AOSP sdm845, we override os_pickup.mk -->
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
     <!-- add guards for CAF repositories -->
-    <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/apq8084/Android.mk" /> -->
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/apq8084/Android.mk" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8916/Android.mk" />
-    <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8952/Android.mk" /> -->
-    <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8960/Android.mk" /> -->
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8952/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8960/Android.mk" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8974/Android.mk" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8994/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
@@ -729,9 +729,9 @@
   <project path="hardware/qcom-caf/msm8916/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.0-caf-msm8916" remote="lineage" />
   <project path="hardware/qcom-caf/msm8916/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-17.0-caf-msm8916" remote="lineage" />
   <project path="hardware/qcom-caf/msm8916/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-17.0-caf-msm8916" remote="lineage" />
-  <!--<project path="hardware/qcom-caf/msm8952/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.0-caf-msm8952" remote="lineage" />-->
-  <!--<project path="hardware/qcom-caf/msm8952/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-17.0-caf-msm8952" remote="lineage" />-->
-  <!--<project path="hardware/qcom-caf/msm8952/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-17.0-caf-msm8952" remote="lineage" />-->
+  <project path="hardware/qcom-caf/msm8952/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.0-caf-msm8952" remote="lineage" />
+  <project path="hardware/qcom-caf/msm8952/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-17.0-caf-msm8952" remote="lineage" />
+  <project path="hardware/qcom-caf/msm8952/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-17.0-caf-msm8952" remote="lineage" />
   <project path="hardware/qcom-caf/msm8960/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.0-caf-msm8960" remote="lineage" />
   <project path="hardware/qcom-caf/msm8960/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-17.0-caf-msm8960" remote="lineage" />
   <project path="hardware/qcom-caf/msm8960/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-17.0-caf-msm8960" remote="lineage" />
@@ -750,13 +750,14 @@
   <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.0-caf-sdm845" remote="lineage" />
   <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-17.0-caf-sdm845" remote="lineage" />
   <project path="hardware/qcom-caf/sdm845/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-17.0-caf-sdm845" remote="lineage" />
-  <!--<project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.0-caf-sm8150" remote="lineage" />-->
-  <!--<project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-17.0-caf-sm8150" remote="lineage" />-->
-  <!--<project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-17.0-caf-sm8150" remote="lineage" />-->
+  <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.0-caf-sm8150" remote="lineage" />
+  <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-17.0-caf-sm8150" remote="lineage" />
+  <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-17.0-caf-sm8150" remote="lineage" />
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" groups="qcom,pdk-qcom" remote="lineage" />
   <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" groups="qcom,pdk-qcom" remote="lineage" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" revision="lineage-17.0-caf" remote="lineage" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="lineage" />
+  <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_sdm845_display" groups="qcom_sdm845" remote="lineage" />
 
 <!-- Lineage Vendors -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="lineage" />
@@ -774,7 +775,7 @@
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" groups="qcom,pdk-qcom" remote="lineage" />
   <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" groups="qcom,qcom_fm" remote="lineage" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" groups="qcom,pdk-qcom" remote="lineage" />
-  <!--<project path="vendor/qcom/opensource/power" name="LineageOS/android_vendor_qcom_opensource_power" groups="qcom,pdk-qcom" remote="lineage" />-->
+  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" groups="qcom,pdk-qcom" remote="lineage" />
   <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" groups="qcom,pdk-qcom" remote="lineage" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
