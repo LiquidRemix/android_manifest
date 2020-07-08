@@ -598,6 +598,7 @@
   <project path="device/liquid/sepolicy" name="android_device_liquid_sepolicy" groups="pdk" remote="liquid" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" groups="pdk" remote="liquid" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="liquid" />
+  <project path="external/google-audio" name="android_external_google-audio" remote="liquid" />
   <project path="external/perfetto" name="android_external_perfetto" groups="pdk" remote="liquid" />
   <project path="external/sqlite" name="android_external_sqlite" groups="pdk" remote="liquid" />
   <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="liquid" />
